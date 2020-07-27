@@ -7,7 +7,7 @@ import glob
 # enough to get the job done
 filepath = './responsive/**/*.jsp'
 
-filesToAnalyze = glob.glob(, recursive=True)
+filesToAnalyze = glob.glob(filepath, recursive=True)
 
 translation = []
 for singleFile in filesToAnalyze:
